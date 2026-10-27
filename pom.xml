@@ -40,6 +40,12 @@
 			<scope>test</scope>
 		</dependency>
 
+		<!-- WS-Security (Wss4jSecurityInterceptor / UsernameToken) -->
+		<dependency>
+			<groupId>org.springframework.ws</groupId>
+			<artifactId>spring-ws-security</artifactId>
+		</dependency>
+
 		<!-- Necessária para gerar o WSDL (correção da aula 5) -->
 		<dependency>
 			<groupId>wsdl4j</groupId>
